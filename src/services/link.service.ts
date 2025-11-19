@@ -1,6 +1,7 @@
 import prisma from '../utils/db';
 
-const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';
+const BASE_URL =
+  process.env.BASE_URL || 'https://aganitha-backend-nuui.onrender.com';
 
 const generateCode = (): string => {
   const chars =
